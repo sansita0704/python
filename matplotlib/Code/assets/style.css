@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+/* Styling for the main header */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;  /* Large font size for the header */
+    color: #007bff;    /* Primary Blue color */
+    text-align: center;
+}
+
+/* Styling for the input fields */
+.form-control {
+    border-radius: 10px;              /* Rounded corners */
+    border: 2px solid #007bff;        /* Primary blue border */
+    font-size: 1.2em;                 /* Increased font size */
+    padding: 5px;                    /* Added padding */
+    color: black;
+    margin: 5px;
+}
+
+/* Styling for the submit button */
+.plot-btn {
+    background-color: dodgerblue;
+    font-weight: bold;
+    color: lightgreen;
+    border-color: #28a745;
+    font-size: 1.5em;                 /* Increased font size */
+    padding: 10px;               /* Padding for a bigger button */
+    border-radius: 5px;               /* Rounded corners for the button */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Change button color on hover */
+.plot-btn:hover {
+    background-color: royalblue;        /* lighter blue on hover */
+}
+
+/* Label styling for input fields */
+.form-label {
+    font-size: 1.2em;                 /* Increased label font size */
+    font-weight: bold;                /* Bold labels */
+    color: #555;                      /* Dark color for better readability */
+}
